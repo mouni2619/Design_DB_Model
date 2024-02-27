@@ -1,0 +1,123 @@
+-- create table
+-- Table 1
+CREATE TABLE Guvi_Zen_Class (
+  DAY INTEGER PRIMARY KEY, 
+  TOPIC TEXT NOT NULL, 
+  TASK TEXT NOT NULL,
+  MENTOR TEXT NOT NULL 
+);
+-- insert values
+INSERT INTO Guvi_Zen_Class VALUES (1, "Introduction to Browser & web", "Introduction to Browser & web","Sangeetha Shanmugam");
+INSERT INTO Guvi_Zen_Class VALUES (2, "Request & Response cycle", "Request & Response cycle","Sangeetha Shanmugam");
+INSERT INTO Guvi_Zen_Class VALUES (3, "JS array & objects", "Looping Of Arrays & Objects","Sangeetha Shanmugam");
+INSERT INTO Guvi_Zen_Class VALUES (4, "What is XMLHTTP Request? & scope", "XMLHTTP Request","Sangeetha Shanmugam");
+INSERT INTO Guvi_Zen_Class VALUES (5, "Functions", "IIFE & Annoymous Function","Sangeetha Shanmugam");
+INSERT INTO Guvi_Zen_Class VALUES (6, "Functions recap", "Functions","Sangeetha Shanmugam");
+INSERT INTO Guvi_Zen_Class VALUES (7, "ES5 vs ES6", "NIL","Sangeetha Shanmugam");
+INSERT INTO Guvi_Zen_Class VALUES (8, "OOP", "OOP PROBLEMS","Sangeetha Shanmugam");
+INSERT INTO Guvi_Zen_Class VALUES (9, "MRF Array Method", "MRF Method","Sangeetha Shanmugam");
+INSERT INTO Guvi_Zen_Class VALUES (10, "Complete Recap", "NIL","Sangeetha Shanmugam");
+INSERT INTO Guvi_Zen_Class VALUES (11, "HTML", "HTML & CSS Mini Task","Sangeetha Shanmugam");
+INSERT INTO Guvi_Zen_Class VALUES (12, "HTML recap CSS", "NIL","Sangeetha Shanmugam");
+INSERT INTO Guvi_Zen_Class VALUES (13, "CSS", "NIL","Sangeetha Shanmugam");
+INSERT INTO Guvi_Zen_Class VALUES (14, "CSS", "NIL","Sangeetha Shanmugam");
+INSERT INTO Guvi_Zen_Class VALUES (15, "Responsive web design", "NIL","Sangeetha Shanmugam");
+INSERT INTO Guvi_Zen_Class VALUES (16, "Bootstrap design demo", "Responsive Design","Sangeetha Shanmugam");
+INSERT INTO Guvi_Zen_Class VALUES (17, "DOM", "NIL","Sangeetha Shanmugam");
+INSERT INTO Guvi_Zen_Class VALUES (18, "Document vs Window", "NIL","Sangeetha Shanmugam");
+INSERT INTO Guvi_Zen_Class VALUES (19, "Recap of Topics", "CALCULATOR HTMLForms PAGINATION","Sangeetha Shanmugam");
+INSERT INTO Guvi_Zen_Class VALUES (20, "Recap of Topics", "NIL","Sangeetha Shanmugam");
+INSERT INTO Guvi_Zen_Class VALUES (21, "Callback", "Callback Hell","Sangeetha Shanmugam");
+INSERT INTO Guvi_Zen_Class VALUES (22, "Promise", "NIL","Sangeetha Shanmugam");
+INSERT INTO Guvi_Zen_Class VALUES (23, "Fetch Api", "NIL","Sangeetha Shanmugam");
+INSERT INTO Guvi_Zen_Class VALUES (24, "Promise_fetch - request info & request init", "NIL","Sangeetha Shanmugam");
+INSERT INTO Guvi_Zen_Class VALUES (25, "Recap of Topics", "3 API TASKS","Sangeetha Shanmugam");
+INSERT INTO Guvi_Zen_Class VALUES (26, "REACT", "Pricing Table","Sangeetha Shanmugam");
+INSERT INTO Guvi_Zen_Class VALUES (27, "React hooks & states", "Shop-Homepage","Sangeetha Shanmugam");
+INSERT INTO Guvi_Zen_Class VALUES (28, "React components", "Dashboard","Sangeetha Shanmugam");
+INSERT INTO Guvi_Zen_Class VALUES (29, "React router", "CRUD_Userlist","Sangeetha Shanmugam");
+INSERT INTO Guvi_Zen_Class VALUES (30, "recap with previous day topics", "NIL","Sangeetha Shanmugam");
+INSERT INTO Guvi_Zen_Class VALUES (31, "Context API", "API task completion using context","Sangeetha Shanmugam");
+INSERT INTO Guvi_Zen_Class VALUES (32, "recap with previous day topics", "NIL","Sangeetha Shanmugam");
+INSERT INTO Guvi_Zen_Class VALUES (33, "AXIOS", "CRUD using Axios","Sangeetha Shanmugam");
+INSERT INTO Guvi_Zen_Class VALUES (34, "formik in react", "CRUD for product with validation","Sangeetha Shanmugam");
+INSERT INTO Guvi_Zen_Class VALUES (35, "practice with formik & recap", "NIL","Sangeetha Shanmugam");
+INSERT INTO Guvi_Zen_Class VALUES (36, "Database - MySQL", "MYSQL queries","Sangeetha Shanmugam");
+INSERT INTO Guvi_Zen_Class VALUES (37, "Database - MySQL", "Design DB model for Guvi Zen class","Sangeetha Shanmugam");
+INSERT INTO Guvi_Zen_Class VALUES (38, "Database - MongoDB", "MongoDB queries","Sangeetha Shanmugam");
+INSERT INTO Guvi_Zen_Class VALUES (39, "MongoDB", "database-design-zen-class","Sangeetha Shanmugam");
+
+-- Table 2
+-- create table
+CREATE TABLE Guvi_Zen_Class_Dashboard (
+  Attendance TEXT NOT NULL,
+  Activities TEXT NOT NULL,
+  Task Text NOT NULL
+);
+-- insert values
+INSERT INTO Guvi_Zen_Class_Dashboard VALUES ('present', 'Codekata & Webkata', 'Completed Task:10 & Pending Task:1 ');
+INSERT INTO Guvi_Zen_Class_Dashboard VALUES ('absent', 'Codekata & Webkata', 'Completed Task:11 & Pending Task:0 ');
+INSERT INTO Guvi_Zen_Class_Dashboard VALUES ('present', 'Codekata & Webkata', 'Completed Task:11 & Pending Task:1 ');
+
+-- Table 3
+-- create table
+CREATE TABLE Guvi_Zen_Class_TaskSubmission (
+  Task_Submission TEXT NOT NULL
+);
+-- insert values
+INSERT INTO Guvi_Zen_Class_TaskSubmission VALUES ('Praveen kumar M (B52 WD English) -JavaScript - Day -1: Introduction to Browser & web submitted on 22/09/2023 8 Task');
+INSERT INTO Guvi_Zen_Class_TaskSubmission VALUES ('Praveen kumar M (B52 WD English) -JavaScript - Day -2: Datatypes submitted on 23/09/2023 9.5 Task');
+INSERT INTO Guvi_Zen_Class_TaskSubmission VALUES ('Praveen kumar M (B52 WD English) -JavaScript - Day -3: JS array & objects submitted on 26/09/2023 7 Task');
+INSERT INTO Guvi_Zen_Class_TaskSubmission VALUES ('Praveen kumar M (B52 WD English) -JavaScript - Day -4: Functions submitted on 29/09/2023 6 Task');
+INSERT INTO Guvi_Zen_Class_TaskSubmission VALUES ('Praveen kumar M (B52 WD English) -JavaScript - Day -5: ES5 vs ES6 submitted on 29/09/2023 9 Task');
+INSERT INTO Guvi_Zen_Class_TaskSubmission VALUES ('Praveen kumar M (B52 WD English) -JavaScript - Day -6: OOP in JS submitted on 07/10/2023 4 Task');
+INSERT INTO Guvi_Zen_Class_TaskSubmission VALUES ('Praveen kumar M (B52 WD English) -JavaScript - Day -6: OOP in JS submitted on 07/10/2023 4 Task');
+INSERT INTO Guvi_Zen_Class_TaskSubmission VALUES ('Praveen kumar M (B52 WD English) -JavaScript - Day -7: Array methods submitted on 07/10/2023 7 Task');
+INSERT INTO Guvi_Zen_Class_TaskSubmission VALUES ('Praveen kumar M (B52 WD English) -HTML & CSS- Day -5: HTML & CSS submitted on 20/10/2023 6 Task');
+INSERT INTO Guvi_Zen_Class_TaskSubmission VALUES ('Praveen kumar M (B52 WD English) -DOM- Day -3: Recap of Topics submitted on 27/10/2023 9 Task');
+INSERT INTO Guvi_Zen_Class_TaskSubmission VALUES ('Praveen kumar M (B52 WD English) -Async programming- Day -1: Callback submitted on 30/10/2023 8 Task');
+INSERT INTO Guvi_Zen_Class_TaskSubmission VALUES ('Praveen kumar M (B52 WD English) -Async programming- Day -2: Promise submitted on 04/11/2023 7 Task');
+INSERT INTO Guvi_Zen_Class_TaskSubmission VALUES ('Praveen kumar M (B52 WD English) -React- Day -2: React submitted on 21/11/2023 6.5 Task');
+INSERT INTO Guvi_Zen_Class_TaskSubmission VALUES ('Praveen kumar M (B52 WD English) -React- Day -3: React hooks & states submitted on 23/11/2023 7 Task');
+INSERT INTO Guvi_Zen_Class_TaskSubmission VALUES ('Praveen kumar M (B52 WD English) -React- Day -6: Router submitted on 26/11/2023 8 Task');
+INSERT INTO Guvi_Zen_Class_TaskSubmission VALUES ('Praveen kumar M (B52 WD English) -React- Day -8: Context API submitted on 26/11/2023 6.5 Task');
+INSERT INTO Guvi_Zen_Class_TaskSubmission VALUES ('Praveen kumar M (B52 WD English) -React- Day -5: React Hooks submitted on 27/11/2023 7 Task');
+INSERT INTO Guvi_Zen_Class_TaskSubmission VALUES ('Praveen kumar M (B52 WD English) -Async programming- Day -5: Recap of topics submitted on 27/11/2023 6 Task');
+INSERT INTO Guvi_Zen_Class_TaskSubmission VALUES ('Praveen kumar M (B52 WD English) -Database- Day -1: MySQL submitted on 02/12/2023 9 Task');
+
+-- Table 4
+-- create table
+CREATE TABLE Guvi_Zen_Class_WEBCODE_and_CAPSTONE (
+  WEBCODE TEXT NULL,
+  CAPSTONE TEXT NULL
+);
+-- insert values
+INSERT INTO Guvi_Zen_Class_WEBCODE_and_CAPSTONE VALUES ('','');
+
+-- Table 5
+-- create table
+CREATE TABLE Guvi_Zen_Class_Queries (
+  Queries TEXT NOT NULL
+);
+-- insert values
+INSERT INTO Guvi_Zen_Class_Queries VALUES ('QN53674 - functions and codekata practice Closed Zen-Class Doubt 29/09/2023 1:31 PM');
+INSERT INTO Guvi_Zen_Class_Queries VALUES ('QN52467 - Regarding how to submit the task in ZEN portal Closed Zen-Class Doubt 21/09/2023 12:19 PM Recent query');
+
+-- Table 6
+-- create table
+CREATE TABLE My_Applications (
+  Applications TEXT NOT NULL
+);
+-- insert values
+INSERT INTO My_Applications VALUES ('Content available after completing Placement preparation');
+
+-- Table 7
+-- create table
+CREATE TABLE Interview_tasks (
+  Task_Submission TEXT NOT NULL
+);
+-- insert values
+INSERT INTO Interview_tasks VALUES ('Content available after completing Placement preparation');
+
+-- fetch 
+SELECT * FROM Guvi_Zen_Class,Guvi_Zen_Class_Dashboard,Guvi_Zen_Class_TaskSubmission,Guvi_Zen_Class_WEBCODE_and_CAPSTONE,Guvi_Zen_Class_Queries,My_Applications,Interview_tasks;
